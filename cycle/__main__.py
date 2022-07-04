@@ -18,7 +18,7 @@ from game.shared.point import Point
 def main():
     
     # Create two snakes, gets their position and color
-    cycle = Cycle(Point(int(constants.MAX_X - 650), int(constants.MAX_Y / 2)))
+    cycle = Cycle(Point(int(constants.MAX_X - 645), int(constants.MAX_Y / 2)))
     cycle1 = Cycle(Point(int(constants.MAX_X - 300), int(constants.MAX_Y / 2)))
     cycle.set_color(constants.GREEN)
     cycle1.set_color(constants.RED)
